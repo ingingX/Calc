@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/cal/cal",
+    "pages/list/list",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "calculator",
+    "navigationBarTextStyle":"white"
+  },
+   "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/cal/cal",
+      "iconPath": "pages/asserts/img/11.png",
+      "selectedIconPath": "pages/asserts/img/12.png",
+      "text": "cal"
+    }, {
+      "pagePath": "pages/me/me",
+      "iconPath": "pages/asserts/img/21.png",
+      "selectedIconPath": "pages/asserts/img/22.png",
+      "text": "me"
+    }]
+  }
+}
+  
